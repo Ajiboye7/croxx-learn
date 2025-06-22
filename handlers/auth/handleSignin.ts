@@ -15,7 +15,9 @@ export async function handleSignin(email: string, password: string) {
                 await AsyncStorage.setItem('@accessToken', res.token)
                 await AsyncStorage.setItem('@user', JSON.stringify(res.user))
                 return {
-             
+                    success: true,
+                    user: res.user
+                }
             } catch (e) {
                 logger.error(e)
             }
