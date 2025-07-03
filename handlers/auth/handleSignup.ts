@@ -3,7 +3,7 @@ import auth from '../../services/auth'
 import logger from '../../utils/logger'
 
 export default async function handleSignup(firstName: string, lastName: string, email: string, password1: string, password2: string,) {
-    // validate(firstName, lastName, email, password1, password2)
+  \
 
     let newUser = {
         firstName: firstName,
