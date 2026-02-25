@@ -33,3 +33,5 @@ const verify = async (payload: { verificationCode: string }) => {
 }
 
 export default { signin, signup, forgot_password, verify }
+
+//EXPO_PUBLIC_HOST=https://croxxlearn-d5874d7f0aa7.herokuapp.com/api/v1
