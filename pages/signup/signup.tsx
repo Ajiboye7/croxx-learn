@@ -120,14 +120,14 @@ export default function SignUp() {
               value={firstName}
               onChangeText={setFirstName}
               style={styles.textField}
-              placeholder={"First Name"}
+              placeholder={"First name"}
               placeholderTextColor={"grey"}
             />
             <TextInput
               value={lastName}
               onChangeText={setLastName}
               style={styles.textField}
-              placeholder={"Last Name"}
+              placeholder={"Last name"}
               placeholderTextColor={"grey"}
             />
             <TextInput
