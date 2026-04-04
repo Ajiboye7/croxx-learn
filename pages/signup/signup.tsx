@@ -87,7 +87,7 @@ export default function SignUp() {
           setError("Something went wrong.");
       }
     } else {
-      setError("Request timed out");
+      setError("Request timed out!@");
     }
   };
 
