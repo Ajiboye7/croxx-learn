@@ -62,7 +62,7 @@ export default function ResetPassword() {
                         Bringing out the <Text style={styles.logoBold}>genius</Text> in you
                     </Text>
 
-                    <Text style={styles.loginText}>Forgot Password</Text>
+                    <Text style={styles.loginText}> Click to Forgot Password </Text>
                     <View style={styles.AuthInput}>
                         <TextInput
                             value={email}
