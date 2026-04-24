@@ -121,7 +121,7 @@ export const Home = () => {
             </View>
             <View>
               <Text style={$userName}>
-                <Text style={$Hi}>Hi</Text>, {user.firstName}
+                <Text style={$Hi}>Hey</Text>, {user.firstName}
               </Text>
               <Text style={$what}>What will you learn</Text>
               <Text style={$today}>today?</Text>
