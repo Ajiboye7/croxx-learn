@@ -123,7 +123,7 @@ export const Home = () => {
               <Text style={$userName}>
                 <Text style={$Hi}>Hey!</Text>, {user.firstName}
               </Text>
-              <Text style={$what}>What will you learn</Text>
+              <Text style={$what}>What are you learning</Text>
               <Text style={$today}>today?</Text>
             </View>
           </View>
