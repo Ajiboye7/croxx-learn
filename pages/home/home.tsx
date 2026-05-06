@@ -103,7 +103,7 @@ export const Home = () => {
     await WebBrowser.openBrowserAsync(pdfUrl);
   } catch (error) {
     console.error('Failed to download PDF:', error);
-    return null; // Return null if download fails
+    return null; 
   }
 };
 
