@@ -124,7 +124,7 @@ export const Home = () => {
                 <Text style={$Hi}>Hey!</Text>, {user.firstName}
               </Text>
               <Text style={$what}>What are you learning</Text>
-              <Text style={$today}>today?</Text>
+              <Text style={$today}>today</Text>
             </View>
           </View>
 
@@ -132,7 +132,7 @@ export const Home = () => {
             <TextInput
               style={$searchInput}
               placeholder="Search"
-              placeholderTextColor={colors.palceHolder}
+              placeholderTextColor={colors.placeHolder}
             />
 
             <Ionicons name="search" size={19} color="#6A6A6A" />

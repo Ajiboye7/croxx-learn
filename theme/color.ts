@@ -38,7 +38,7 @@ const palette = {
 
     blackBackground: "#20201F",
     lightGrey: '#2E2E2E',
-    palceHolder: 'rgba(255, 255, 255, 0.51)',
+    placeHolder: 'rgba(255, 255, 255, 0.51)',
     fill: '#D9D9D9',
     lemon: '#95C900'
 
@@ -74,7 +74,7 @@ export const colors = {
 
     blackBackground: palette.blackBackground,
     lightGrey: palette.lightGrey,
-    palceHolder: palette.palceHolder,
+    placeHolder: palette.placeHolder,
     fill: palette.fill,
     lemon: palette.lemon,
     /**
